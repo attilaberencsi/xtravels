@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "travel-agent": {
+      "type": "http",
+      "url": "http://localhost:4114/mcp/travel-agent",
+      "headers": {
+        "Authorization": "Basic YWxpY2U6"
+      }
+    }
+  }
+}
