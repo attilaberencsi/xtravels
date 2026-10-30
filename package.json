@@ -5,9 +5,12 @@
   "scripts": {
     "lint": "npx eslint .",
     "start": "cds-serve",
+    "inspect": "npx @modelcontextprotocol/inspector --transport http --server-url http://localhost:4114/mcp/travel-agent --header \"Authorization: Basic YWxpY2U6\"",
     "test": "cds test"
   },
   "dependencies": {
+    "@cap-js/agents": "*",
+    "@cap-js/mcp": "*",
     "@capire/common": "*",
     "@capire/s4": "*",
     "@capire/xflights-data": "*",
