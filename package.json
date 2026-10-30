@@ -5,6 +5,7 @@
   "scripts": {
     "lint": "npx eslint .",
     "start": "cds-serve",
+    "watch": "npx cross-env DEBUG=agents cds watch",
     "inspect": "npx @modelcontextprotocol/inspector --transport http --server-url http://localhost:4114/mcp/travel-agent --header \"Authorization: Basic YWxpY2U6\"",
     "test": "cds test"
   },

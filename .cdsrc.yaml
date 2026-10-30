@@ -4,3 +4,12 @@ folders:
     flow: xmpls/flow/
 fiori:
   draft_new_action: true
+requires:
+  llm:
+    kind: openai
+    model: qwen3.8-27b-turbo-fable-cold-fusion-735-882-heretic-uncensored-neo-coder-max-mtp
+    temperature: 0.6
+    maxTokens: 16384
+    credentials:
+      baseURL: http://localhost:1234/v1
+      apiKey: lm-studio
